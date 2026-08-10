@@ -27,21 +27,21 @@ const projects = [
     year: '2026',
     desc: 'Movie ticket booking app with real-time seat availability via Socket.IO. Prevents double-booking using MongoDB findOneAndUpdate() for atomic, concurrent-safe seat locks.',
     stack: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.IO'],
-    link: '#',
+    link: 'https://seatsyncc.onrender.com',
   },
   {
     name: 'Auth Playground',
     year: '2025',
     desc: 'Interactive platform to learn JWT, access & refresh tokens, cookies, and localStorage — teaching token expiry, theft risks, and storage trade-offs.',
     stack: ['React', 'Node.js', 'JWT'],
-    link: '#',
+    link: 'https://authplayground.onrender.com',
   },
   {
     name: 'Snippet Hub',
     year: '2024',
     desc: 'MERN-stack platform to create, manage, and share code snippets — public/private visibility, authentication, favorites, and personal libraries.',
     stack: ['MongoDB', 'Express', 'React', 'Node.js'],
-    link: '#',
+    link: 'https://snippethub-frontend-d8rx.onrender.com',
   },
 ]
 
@@ -146,8 +146,8 @@ export default function App() {
             <div className="hero-links">
               <a href="tel:+919345783513">+91 93457 83513</a>
               <a href="mailto:poojashri.sm2023it@sece.ac.in">poojashri.sm2023it@sece.ac.in</a>
-              <a href="#" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-              <a href="#" target="_blank" rel="noreferrer">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/poojashri2006/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+              <a href="https://github.com/Poojamaruthu" target="_blank" rel="noreferrer">GitHub ↗</a>
             </div>
           </div>
         </section>
